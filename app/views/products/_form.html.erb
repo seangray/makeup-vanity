@@ -1,0 +1,42 @@
+<%= form_with model: @product do |form| %>
+	<%= form.label :brand, "Brand" %>
+	<%= form.text_field :brand %>
+	<%= form.label :name, "Name" %>
+	<%= form.text_field :name %>
+	<%= form.label :category, "Product Type" %>
+	<%= form.text_field :category %>
+	<%= form.label :face_area, "Product Group" %>
+	<%= form.select :face_area, ["Base", "Cheek", "Eye", "Lip", "Other"] %>
+	<%= form.label :face_area, "Size" %>
+	<%= form.text_field :size %>
+  <%= form.label :shade, "Shade Name" %>
+  <%= form.text_field :shade %>
+  <%= form.label :color, "Color (Hex Value)" %>
+  <%= form.text_field :color %>
+  <hr />
+	<%= form.label :review, "Review" %>
+	<%= form.text_area :review %>
+	<%= form.label :rating, "Rating" %>
+	
+	<div id="stars" data-controller="star">
+		<%= form.range_field :rating, min: 1, max: 5, class: 'hidden', data: {"star-target": "input"} %>
+		<span data-star-value="1" data-star-target="star" data-action="click->star#selectStar">&star;</span>
+		<span data-star-value="2" data-star-target="star" data-action="click->star#selectStar">&star;</span>
+		<span data-star-value="3" data-star-target="star" data-action="click->star#selectStar">&star;</span>
+		<span data-star-value="4" data-star-target="star" data-action="click->star#selectStar">&star;</span>
+		<span data-star-value="5" data-star-target="star" data-action="click->star#selectStar">&star;</span>
+	</div>
+	<hr />
+	<%= form.label :purchase_date, "Purchased On" %>
+	<%= form.date_field :purchase_date %>
+	<%= form.label :purchase_date, "Purchased From" %>
+	<%= form.text_field :retailer %>
+	<%= form.label :purchase_date, "Planned Purchase" %>
+	<%= form.check_box :planned %>
+	<%= form.label :price, "Price" %>
+	<%= form.number_field :price %>
+	<%= form.label :purchase_date, "Purchased Online" %>
+	<%= form.check_box :online %>
+  
+  <%= form.submit %>
+<% end %>

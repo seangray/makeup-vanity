@@ -1,0 +1,8 @@
+<article class="card" data-sname="<%= p.fullname %>" data-price="<%= p.price %>" data-state="<%= p.aasm_state %>" data-face="<%= p.face_area %>" data-brand="<%= p.brand %>"  data-type="<%= p.category %>" data-sort-target="card"  data-filter-target="card">
+	<div class="details">
+		<h1><%= link_to p.fullname, p %><%= " in "+ p.shade if !p.shade.blank? %></h1>
+		<h2><%= number_to_currency(p.price) %> for <%= p.size ? p.size : "Full" %> size</h2>
+		<%= p.aasm_state.humanize %><%= " since "+ p.aasm_state_date.to_s if p.aasm_state_date %>
+	</div>
+	<div class="swatch" style="background: <%= p.color %>; width: 10em"></div>
+</article>

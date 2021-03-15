@@ -1,0 +1,16 @@
+<h2>Removed Products</h2>
+<div data-controller="sort">
+	<select name="sort" id="sort" data-action="sort#resort">
+		<option value="name_desc" data-sort-direction="desc"  data-sort-value="sname">Name &darr;</option>
+		<option value="name_desc" data-sort-direction="asc"  data-sort-value="sname">Name &uarr;</option>
+		<option value="price_desc" data-sort-direction="desc"  data-sort-value="price">Price &darr;</option>
+		<option value="price_desc" data-sort-direction="asc"  data-sort-value="price">Price &uarr;</option>
+	</select>
+	<div data-sort-target="container">
+		<%= render partial: 'product_details', collection: @products, as: :p, cached: true %>
+	</div>
+</div>
+
+<% content_for :sidebar do %>
+	<%= link_to "View Vanity", products_path %>
+<% end %>

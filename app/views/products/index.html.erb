@@ -1,0 +1,45 @@
+<div data-controller="sort filter">
+	<div class="fcontainer">
+		<div>
+			<label for="sort">Sort</label>
+			<select name="sort" id="sort" data-action="sort#resort">
+				<option value="name_desc" data-sort-direction="desc"  data-sort-value="sname">Name &darr;</option>
+				<option value="name_desc" data-sort-direction="asc"  data-sort-value="sname">Name &uarr;</option>
+				<option value="price_desc" data-sort-direction="desc"  data-sort-value="price">Price &darr;</option>
+				<option value="price_desc" data-sort-direction="asc"  data-sort-value="price">Price &uarr;</option>
+			</select>
+		</div>
+		<div>
+			<label for="face">Narrow by Area of Face</label>
+			<% cache @areas do %>
+			<select name="face" id="face" data-action="filter#filter">
+				<option value="all">See All</option>
+				<% @areas.each do |a| %>
+					<option value="<%= a %>"><%= a %></option>
+				<% end %>
+			</select>
+			<% end %>
+		</div>
+		<div>
+			<% cache @brands do %>
+				<label for="brand">Narrow by Brand</label>
+				<select name="brand" id="brand" data-action="filter#filter">
+					<option value="all">See All</option>
+					<% @brands.each do |a| %>
+						<option value="<%= a %>"><%= a %></option>
+					<% end %>
+				</select>
+			<% end %>
+		</div>
+	</div>
+	
+	<div data-sort-target="container">
+		<%= render partial: 'product_details', collection: @products, as: :p, cached: true %>
+	</div>
+</div>
+
+
+<% content_for :sidebar do %>
+	<h3>Current cost: <%= number_to_currency(@total) %></h3>
+	<%= link_to "Removed Products", gone_products_path %>
+<% end %>

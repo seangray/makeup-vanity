@@ -1,0 +1,29 @@
+<div style="display: flex;">
+	<div class="details">
+		<h1><%= @product.brand %> <%= @product.name %><%= " in "+ @product.shade if !@product.shade.blank? %></h1>
+		<div id="stars">
+				<% @product.rating.to_i.times do |r| %>
+					<span>&starf;</span>
+				<% end %>
+
+	</div>
+		<h2><%= number_to_currency(@product.price) %> for <%= @product.size ? @product.size : "Full" %> size</h2>
+		<%= @product.aasm_state.humanize %><%= " since "+ @product.aasm_state_date.to_s if @product.aasm_state_date %>
+	</div>
+	<div class="swatch" style="background: <%= @product.color %>; width: 10em"></div>
+</div>
+
+<hr>
+<h3>Purchase Details</h3>
+<ul>
+	<li>Purchased on <%= @product.purchase_date ? @product.purchase_date : "an unknown date" %> from <%= @product.retailer %> (<%= @product.online == true ? "Online" : "In Store" %>)</li>
+	<% if @product.planned == true %><li>Planned Purchase</li><% end %>
+</ul>
+
+<% content_for :sidebar do %>
+	<%= link_to "View Vanity", products_path %>
+	<%= link_to "Edit Product", edit_product_path(@product) %>
+	<%= link_to "I opened this product", product_open_path(@product) if @product.aasm_state == "unopen" %>
+	<%= link_to "I destashed this product", product_destash_path(@product) if @product.aasm_state == "open" %>
+	<%= link_to "I finished this product", product_finish_path(@product) if @product.aasm_state == "open" %>
+<% end %>

@@ -1,0 +1,102 @@
+category,brand,name,shade,size,purchase_date,planned,price,retailer,online,face_area
+BB Cream,Missha,Perfect Cover BB Cream SPF42 PA+++,#21,Full,4/11/2020,TRUE,12.13,Yesstyle,TRUE,Base
+Blush,Hourglass,Ambient lighting blush,Mood Exposure,Travel,10/12/2017,FALSE,24.00,Sephora,FALSE,Cheek
+Bronzer,Tom Ford,Bronzer,Terra,Full,10/18/2017,FALSE,68.00,Beautylish,TRUE,Cheek
+Brow Gel,Charlotte Tilbury,Legendary Brows Eyebrow Gel,Linda,Full,8/21/2019,TRUE,22.50,Sephora,TRUE,Eye
+Brow Gel,Hourglass,Arch Brow Volumizing,Soft Brunette,Full,11/29/2018,TRUE,28.00,Sephora,TRUE,Eye
+Brow Gel,Charlotte Tilbury,Legendary Brows Eyebrow Gel,Star,Full,11/3/2020,TRUE,22.50,Sephora,TRUE,Eye
+Concealer,YSL,All Hours Concealer,1 Porcelain - Fair,Full,2/20/2018,FALSE,34.00,Sephora,FALSE,Base
+Concealer,NARS,Soft Matte Concealer,Vanilla,Full,12/13/2019,FALSE,30.00,Sephora,FALSE,Base
+Concealer,Glossier,Stretch Concealer,G11,Full,11/27/2020,FALSE,18.00,Glossier,TRUE,Base
+Concealer,NARS,Soft Matte Concealer,Creme Brulee,Full,10/18/2019,TRUE,30.00,Ulta,FALSE,Base
+Concealer,Giorgio Armani,Power Fabric High Coverage Stretchable Concealer,1,Full,8/21/2019,TRUE,34.00,Sephora,TRUE,Base
+Concealer,Make-Up Atelier,Fluid Concealer,Ivory FLWAIV,Full,3/27/2018,TRUE,18.00,Beautylish,TRUE,Base
+Concealer,MUFE,Ultra HD invisible cover concealer,R20,Full,2/5/2017,FALSE,27.00,Sephora,FALSE,Base
+Eye Primer,NARS,Pro-Prime Smudge Proof,original,Full,10/26/2018,TRUE,26.00,Sephora,TRUE,Eye
+Eyebrow,Glossier,Boy Brow,Blond,Full,5/6/2017,FALSE,16.00,Glossier,TRUE,Eye
+Eyebrow,Anastasia Beverly Hills,Brow Wiz,Taupe,Full,11/24/2017,FALSE,16.80,Anastasia Beverly Hills,TRUE,Eye
+Eyebrows,Anastasia Beverly Hills,Dipbrow Pomade,Taupe,Full,6/8/2019,FALSE,18.00,Sephora,FALSE,Eye
+Eyebrows,Anastasia Beverly Hills,Brow Powder Duo,Medium Brown,Full,3/13/2018,TRUE,23.00,Sephora,FALSE,Eye
+Eyebrows,Anastasia Beverly Hills,Brow Wiz,Taupe,Full,3/23/2019,TRUE,10.50,Ulta,TRUE,Eye
+Eyeliner,Charlotte Tilbury,Rock and Kohl Eye liner,Black,d/s,2/3/2017,FALSE,14.57,Nordstrom,FALSE,Eye
+Eyeliner,Urban Decay,24/7 Glide-On Eye Pencil,Yeyo,Full,4/13/2018,TRUE,17.00,Sephora,TRUE,Eye
+Eyeliner,Marc Jacobs,Highliner Gel Eye Crayon,Blacquer,Full,10/6/2017,FALSE,25.00,Sephora,FALSE,Eye
+Eyeliner,Stila,Stay All Day liquid Eyeliner,Jet Black,Full,2/3/2017,FALSE,22.00,Sephora,FALSE,Eye
+Eyeliner,Inglot,Gel Liner,77 Black,Full,3/10/2017,FALSE,15.00,Beautylish,TRUE,Eye
+Eyeliner,Clio,Gelpresso Pencil Gel Liner,No. 1 Beige Shine,Full,6/24/2017,FALSE,9.89,Amazon,TRUE,Eye
+Eyeliner,Clio,Gelpresso Pencil Gel Liner,No. 6 Metallic Silver,Full,6/24/2017,FALSE,9.89,Amazon,TRUE,Eye
+Eyeliner,Clio,Gelpresso Pencil Gel Liner,Black,Full,10/4/2017,FALSE,11.23,Amazon,TRUE,Eye
+Eyeliner,Marc Jacobs,Fineliner Ultra-Skinny Gel Eye Crayon Eyeliner,,Full,8/3/2017,FALSE,24.00,Sephora,TRUE,Eye
+Eyeshadow,ColourPop,Super Shock Shadow,Ladybird,Full,4/26/2019,TRUE,6.00,Ulta,TRUE,Eye
+Eyeshadow,Sydney Grace,Matte Shadow,Embrace,Full,7/19/2020,TRUE,5.00,Sydney Grace,TRUE,Eye
+Eyeshadow,Sydney Grace,Matte Shadow,Relax,Full,7/19/2020,TRUE,5.00,Sydney Grace,TRUE,Eye
+Eyeshadow,Sydney Grace,Matte Shadow,Speedway,Full,7/19/2020,TRUE,5.00,Sydney Grace,TRUE,Eye
+Eyeshadow,Looxi Beauty,Eyeshadow Single Pan,Sweet Tooth,Pan,3/9/2019,TRUE,5.00,Looxi,TRUE,Eye
+Eyeshadow,Ardency Inn,Modster Manuka Honey Enriched Pigment,Punch,Pan,12/23/2017,FALSE,12.60,Ardency Inn,TRUE,Eye
+Eyeshadow,Ardency Inn,Modster Manuka Honey Enriched Pigment,Rose Gold,Pan,12/23/2017,FALSE,12.60,Ardency Inn,TRUE,Eye
+Eyeshadow,Anastasia Beverly Hills,Eye shadow single,Soft gold,Pan,11/24/2017,FALSE,6.00,Anastasia Beverly Hills,TRUE,Eye
+Eyeshadow,Anastasia Beverly Hills,Eye shadow single,Soft peach,Pan,11/24/2017,FALSE,6.00,Anastasia Beverly Hills,TRUE,Eye
+Eyeshadow Pan,Coloured Raine,Single Eyeshadow,Bay Breeze,Pan,8/1/2017,FALSE,6.00,Coloured Raine,TRUE,Eye
+Eyeshadow Primer,Wet n Wild,Photofocus Eye Primer,,Full,12/12/2020,TRUE,5.47,Walgreens,FALSE,Eye
+Fixing Spray,MAC,Prep + Prime Fix +,,Full,3/19/2017,FALSE,24.00,MAC,TRUE,Base
+Fixing Spray,MAC,Prep + Prime Fix +,Rose,Travel,3/19/2017,FALSE,12.00,MAC,TRUE,Base
+Foundation,Dior,Backstage Face & Body,1 Neutral,50ml,11/3/2020,TRUE,40.00,Sephora,TRUE,Base
+Foundation,Laneige,BB Cushion Hydra Radiance SPF 50,No 21,Full,5/30/2019,FALSE,25.00,Sephora,TRUE,Base
+Foundation,Giorgio Armani,Luminous Silk,2,Full,11/1/2019,TRUE,64.00,Sephora,TRUE,Base
+Foundation,Giorgio Armani,Luminous Silk,2,Full,8/9/2018,TRUE,64.00,Sephora,TRUE,Base
+Foundation,Laneige,BB Cushion Hydra Radiance SPF 50,No 21,Full,4/26/2019,TRUE,38.00,Sephora,TRUE,Base
+Foundation,Giorgio Armani,Luminous Silk Foundation,2,Full,11/10/2017,FALSE,64.00,Sephora,TRUE,Base
+Foundation,Koh Gen Do,Aqua Foundation,13,Full,2/28/2017,FALSE,62.00,Sephora,TRUE,Base
+Foundation,Guerlain,Lingerie de Peau Foundation,00N,Full,3/23/2017,FALSE,63.00,Sephora,TRUE,Base
+Glitter,Stila,Written in the Stars Glitter & Glow Liquid Eyeshadow Set,,Set,9/26/2017,FALSE,25.00,Sephora,TRUE,Eye
+Glitter Glue,NYX,Glitter Primer,,Full,10/12/2017,FALSE,6.00,Ulta,FALSE,Eye
+Highlighter,Kaja,Mochi Glow Bouncy,01 Toy Alien,Full,10/26/2018,FALSE,19.00,Sephora,TRUE,Cheek
+Highlighter,NARS,Highlightin Powder,Fort De France,Full,8/24/2018,TRUE,38.00,Sephora,TRUE,Cheek
+Highlighter,Rituel de Fille,Rare light luminizer,Ghost light,Full,10/12/2017,FALSE,30.00,Lady Pickerings,FALSE,Cheek
+Highlighter,BECCA,Shimmering Skin Perfector Pressed,Moonstone,Mini,8/16/2019,TRUE,15.40,Beautylish,TRUE,Cheek
+Lip Balm,Dior,Dior Addict Lip Glow Color Reviver Balm,Magenta,Full,2/20/2018,TRUE,34.00,Sephora,FALSE,Lip
+Lip Balm,Laneige,Lip Glowy Balm,Berry,Full,4/26/2019,TRUE,15.00,Sephora,TRUE,Lip
+Lip Balm,Nivea,Lip Balm,Blackberry Shine,Full,1/2/2020,FALSE,7.00,Amazon,TRUE,Lip
+Lip Stain,YSL,Water Stain Lip Stain,614 Rose Immerge,Full,8/21/2020,FALSE,38.00,Sephora,TRUE,Lip
+Lip Tint,A'Pieu,Water Light Tint,CR02,Full,2/21/2019,FALSE,5.05,RoseRoseShop,TRUE,Lip
+Lip Tint,Labiotte,Chateau Labiotte Wine Lip Tint,RD02 Nebbiolo Red,Full,4/20/2020,FALSE,8.89,Yesstyle,TRUE,Lip
+Lipgloss,Fenty Beauty,Gloss Bomb Universal,Fenty Glow,Full,8/11/2018,FALSE,18.00,Sephora,FALSE,Lip
+Lipgloss,Fenty Beauty,Gloss Bomb Universal,FU$$Y,Full,12/18/2019,TRUE,18.00,Sephora,TRUE,Lip
+Lipgloss,Anastasia Beverly Hills,Lip Gloss,Kristen,Full,11/29/2018,TRUE,16.00,Sephora,TRUE,Lip
+Lipstick,Givenchy,Le Rouge,307 Grenat Initie,Full,10/26/2018,FALSE,40.00,Sephora,TRUE,Lip
+Lipstick,Glossier,Generation G,Jam,Full,11/27/2020,FALSE,18.00,Glossier,TRUE,Lip
+Lipstick,Lisa Eldridge,Insanely Saturated Lip Colour,Skyscraper Rose,Full,5/28/2020,FALSE,33.17,Lisa Eldridge,TRUE,Lip
+Lipstick,Bobbi Brown,Crushed Liquid Lipstick,Bitter Sweet,Full,11/1/2019,TRUE,27.00,Sephora,TRUE,Lip
+Lipstick,Guerlain,Rouge G Customizable Lipstick Case,French Mademoiselle,Full,4/13/2018,TRUE,14.88,Sephora,TRUE,Lip
+Lipstick,Guerlain,Rouge G Customizable Lipstick,No 2 light beige,Full,4/13/2018,TRUE,27.20,Sephora,TRUE,Lip
+Lipstick,Givenchy,Le Rouge,210,Full,2/3/2017,FALSE,36.00,Sephora,FALSE,Lip
+Lipstick,Pat McGrath,MatteTrance Lipstick,1995,Full,11/10/2017,FALSE,38.00,Sephora,TRUE,Lip
+Lipstick,Tom Ford,Lip Color,True Coral,Full,5/9/2017,FALSE,53.00,Sephora,TRUE,Lip
+Mascara,Lancome,Monsieur Big Waterproof,black,d/s,8/24/2018,FALSE,12.00,Sephora,TRUE,Eye
+Mascara,Lancome,Monsieur Big Waterproof,black,d/s,10/26/2018,FALSE,12.00,Sephora,TRUE,Eye
+Mascara,Charlotte Tilbury,Legendary Lashes,Black,d/s,2/3/2017,FALSE,14.57,Nordstrom,FALSE,Eye
+Mascara,Maybelline,Lash Sensational,Black (Waterproof),Full,4/1/2018,TRUE,9.00,Rite Aid,FALSE,Eye
+Mascara,Isehan,Long and Curl Mascara Super Waterproof,1,Full,3/26/2019,TRUE,14.14,Amazon,TRUE,Eye
+Mascara,Chanel,Le Volume Waterprood,Noir,Full,6/29/2018,TRUE,32.00,Nordstrom,TRUE,Eye
+Mascara,Benefit,They're Real Lash Primer,Brown,Full,6/2/2017,FALSE,24.00,Sephora,FALSE,Eye
+Mascara,Isehan,Kiss Me Heroine Make Long and Curl Mascara,Black,Full,1/14/2017,FALSE,16.94,Amazon,TRUE,Eye
+Mascara,Lancome,Monsieur Big Waterproof Mascara,black,Mini,12/13/2019,FALSE,12.00,Sephora,FALSE,Eye
+Mascara,Milk Makeup,Kush Waterproof,Aces (black),Mini,6/8/2019,TRUE,12.00,Sephora,FALSE,Eye
+Mascara,Lancome,Monsieur Big Waterproof Mascara,black,Mini,8/21/2019,TRUE,12.00,Sephora,TRUE,Eye
+Mascara,Isehan,Kiss Me Heroine Make Volume & Curl Mascara Super Waterproof,Black,Full,4/11/2020,TRUE,12.13,Yesstyle,TRUE,Eye
+Mascara,Isehan,Kiss Me Heroine Make Volume & Curl Mascara Super Waterproof,Black,Full,10/15/2020,TRUE,11.76,Yesstyle,TRUE,Eye
+Powder,YSL,Poudre Compact Radiance Perfection Universelle,,Full,6/29/2018,FALSE,48.00,Nordstrom,TRUE,Base
+Powder,La Mer,Sheer Pressed Powder,Translucent,Full,8/24/2018,TRUE,95.00,Sephora,TRUE,Base
+Primer,Charlotte Tilbury,Hollywood Flawless Filter,1 Fair,Full,12/5/2019,TRUE,44.00,Sephora,TRUE,Base
+Primer,BECCA,Backlight Filter Face Primer,,Mini,11/30/2017,FALSE,18.00,Sephora,TRUE,Base
+Primer,MUFE,Step 1 Skin Equalizer Primer,,Mini,11/30/2017,FALSE,17.00,Sephora,TRUE,Base
+Primer,Dr Jart+,Cicapair Tiger Grass Color Correcting Treatment SPF30,,Travel,9/14/2017,FALSE,18.00,Sephora,FALSE,Base
+Setting Spray,Skindinavia,The Makeup Finishing Spray,,8 oz,10/1/2019,TRUE,29.25,Skindinavia,TRUE,Base
+Setting Spray,Urban Decay,All-Nighter,,Full,1/20/2018,TRUE,32.00,Sephora,FALSE,Base
+Setting Spray,Urban Decay,All-Nighter,,Mini,7/10/2019,TRUE,15.00,Ulta,FALSE,Base
+Setting spray,Urban Decay,All Nighter,,Travel,10/6/2017,FALSE,15.00,Sephora,FALSE,Base
+Setting Spray,Kat Von D,Lock-It Makeup Setting Mist,,Travel,4/19/2017,FALSE,14.00,Sephora,TRUE,Base
+Tinted Moisturizer,Charlotte Tilbury,Light Wonder,Fair 1,Full,3/27/2018,TRUE,46.00,Beautylish,TRUE,Base
+Tinted Moisturizer,tarte,Maracuja Hydrating Tinted Moisturizer,N13,Full,8/21/2020,TRUE,29.00,Sephora,TRUE,Base
+Tinted Moisturizer,tarte,Maracuja Hydrating Tinted Moisturizer,N13,Mini,5/29/2020,TRUE,15.00,Sephora,TRUE,Base
+Tinted Moisturizer,Laura Mercier,Tinted Moisturizer,Pearl,Mini,5/7/2020,TRUE,24.00,Sephora,TRUE,Base

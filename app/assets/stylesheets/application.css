@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+	background: #eee;
+}
+
+/* grid defaults to single column, media query later on changes the layout for larger screens */
+body {
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 1em;
+	display: grid;
+	grid-gap: 1em;
+	grid-template-areas:
+	"header"
+	"sidebar"
+	"content"
+	"footer"
+}
+
+aside {
+	grid-area: sidebar;
+	background: #fff;
+	padding: .5em;
+}
+
+aside a {
+	display: block;
+}
+aside a + a {
+	margin-top: .5em;
+}
+
+header {
+	border-bottom: 2px solid blue;
+	grid-area: header;
+}
+
+main {
+	grid-area: content;
+}
+
+footer {
+	grid-area: footer;
+	border-top: 2px solid blue;
+}
+
+/* form defaults */
+label {
+	display: block;
+}
+
+input + label, textarea + label, select + label {
+	margin-top: 1em;
+}
+
+.card {
+	font-size: .75em;
+}
+
+.card h1, .card h2 {
+	margin: 0;
+}
+
+.card +.card {
+	margin-top: 1em;
+	padding-top: .5em;
+	border-top: 1px solid #ddd;
+}
+
+#stars {
+	color: orange;
+}
+
+.hidden {
+	display: none;
+}
+
+.fcontainer {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.fcontainer > div + div {
+	margin-left: 1em;
+}
+
+.fcontainer select {
+	width: 100%;
+}
+
+@media only screen and (min-width: 800px)  {
+	body {
+		grid-template-columns: 20% auto;
+		grid-template-areas:
+		"header header"
+		"sidebar  content"
+		"footer footer"
+	}
+}
