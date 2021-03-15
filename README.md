@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very simple CRUD RoR app to track makeup purchases and reviews.
 
-Things you may want to cover:
+Ruby: 2.70
+Rails: 6.1.3
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To Do:
+* authenticaion and permissions
+* reports showing y/y changes in puchase habits
+* image uploads
