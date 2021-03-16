@@ -5,7 +5,7 @@ class CreateProducts < ActiveRecord::Migration[6.1]
     	t.string :size
     	t.string :shade
     	t.string :color
-    	t.jsonb :acquisition, null: false, default: {}
+    	t.json :acquisition, null: false
       t.timestamps
     end
   end

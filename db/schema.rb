@@ -12,10 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2021_03_14_183430) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "makeups", force: :cascade do |t|
+  create_table "makeups", charset: "utf8", force: :cascade do |t|
     t.string "brand"
     t.string "name"
     t.string "category"
@@ -27,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_03_14_183430) do
     t.index ["brand", "name"], name: "index_makeups_on_brand_and_name", unique: true
   end
 
-  create_table "products", force: :cascade do |t|
+  create_table "products", charset: "utf8", force: :cascade do |t|
     t.string "size"
     t.string "shade"
     t.string "color"
@@ -43,7 +40,7 @@ ActiveRecord::Schema.define(version: 2021_03_14_183430) do
     t.boolean "repurchase", default: false, null: false
     t.boolean "planned", default: false, null: false
     t.boolean "online", default: false, null: false
-    t.decimal "price"
+    t.decimal "price", precision: 10
     t.string "retailer"
     t.integer "rating"
     t.text "review"
